@@ -1,0 +1,104 @@
+/* StockSavvy Page Specific Styles */
+
+.stocksavvy-header nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 40px;
+   background-color: #fff;
+   border-bottom: 1px solid #ddd;
+}
+
+.stocksavvy-header .main-nav a {
+   margin: 0 15px;
+   font-weight: 500;
+}
+
+.stocksavvy-header .search-bar input {
+   border: 1px solid #ccc;
+   border-radius: 20px;
+   padding: 8px 15px;
+}
+
+.feed-header {
+   padding: 20px 0;
+   border-bottom: 1px solid #eee;
+   margin-bottom: 20px;
+}
+
+.feed-tabs {
+   display: flex;
+   gap: 10px;
+   margin-bottom: 30px;
+}
+
+.feed-tabs a {
+   padding: 10px 20px;
+   border-radius: 20px;
+   font-weight: 500;
+   background-color: #f0f0f0;
+}
+
+.feed-tabs a.active {
+   background-color: #007bff;
+   color: white;
+}
+
+.feed-section {
+   margin-bottom: 30px;
+}
+
+.feed-section h3 {
+   margin-top: 0;
+   font-size: 1.2rem;
+}
+
+.feed-item {
+   padding: 15px 0;
+   border-top: 1px solid #f0f0f0;
+}
+
+.feed-item:first-of-type {
+   border-top: none;
+   padding-top: 0;
+}
+
+.feed-item h4 {
+   margin: 0 0 5px 0;
+}
+
+.item-meta {
+   font-size: 0.8rem;
+   color: #888;
+}
+
+.item-meta span {
+   margin-right: 15px;
+}
+
+.stock-item {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 0;
+   border-top: 1px solid #f0f0f0;
+}
+
+.stock-item:first-of-type {
+   border-top: none;
+}
+
+.stock-item span {
+   display: block;
+   font-size: 0.9rem;
+   color: #6c757d;
+}
+
+.stock-item button {
+   background-color: #28a745;
+   color: white;
+   border: none;
+   padding: 8px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}

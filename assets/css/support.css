@@ -1,0 +1,137 @@
+/* Support Page Specific Styles */
+body.support-page {
+   background-color: #f9f9f9;
+}
+
+.coinswap-header {
+   background-color: #fff;
+   padding: 10px 40px;
+   border-bottom: 1px solid #ddd;
+}
+
+.support-title {
+   text-align: center;
+   padding: 40px 0;
+}
+
+.support-title h1 {
+   margin-bottom: 10px;
+}
+
+.support-grid {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   gap: 40px;
+   margin-bottom: 50px;
+}
+
+.faq-section h2,
+.contact-section h2 {
+   font-size: 1.5rem;
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+
+.faq-filters {
+   display: flex;
+   gap: 10px;
+   margin-bottom: 20px;
+}
+
+.faq-filters button {
+   background: #e9ecef;
+   border: none;
+   padding: 10px 15px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.faq-filters button.active {
+   background: #007bff;
+   color: #fff;
+}
+
+.faq-list details {
+   background: #fff;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   margin-bottom: 10px;
+}
+
+.faq-list summary {
+   padding: 15px;
+   font-weight: bold;
+   cursor: pointer;
+   list-style: none; /* Hide default marker */
+}
+
+.faq-list summary::-webkit-details-marker {
+   display: none; /* Hide default marker for Chrome/Safari */
+}
+
+.faq-list details[open] summary {
+   border-bottom: 1px solid #ddd;
+}
+
+.faq-list p {
+   padding: 15px;
+   margin: 0;
+   border-top: 1px solid #eee;
+   line-height: 1.6;
+}
+
+.contact-card {
+   background: #fff;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   padding: 20px;
+   margin-bottom: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.contact-card p {
+   margin: 0;
+   font-weight: 500;
+}
+
+.contact-card a {
+   background-color: #f0f0f0;
+   padding: 8px 15px;
+   border-radius: 5px;
+}
+
+.support-footer {
+   text-align: center;
+   padding: 20px;
+   border-top: 1px solid #eee;
+   color: #6c757d;
+}
+
+/* Tab Bar Footer */
+.tab-bar-footer {
+   display: flex;
+   justify-content: space-around;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color: #fff;
+   border-top: 1px solid #ddd;
+   padding: 10px 0;
+}
+
+.tab-bar-footer a {
+   color: #6c757d;
+   text-align: center;
+}
+
+.tab-bar-footer a i {
+   font-size: 1.5rem;
+   display: block;
+}
+
+.tab-bar-footer a span {
+   font-size: 0.8rem;
+}

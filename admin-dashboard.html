@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Admin Dashboard</title>
+      <link rel="stylesheet" href="./assets/css/admin-dashboard.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+   </head>
+   <body class="admin-page">
+      <div class="admin-layout">
+         <aside class="admin-sidebar">
+            <h2>Admin Panel</h2>
+            <nav>
+               <ul>
+                  <li class="active">
+                     <a href="#"><i class="bi bi-grid-1x2-fill"></i> Overview</a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="bi bi-people-fill"></i> Users</a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="bi bi-file-earmark-post-fill"></i> Posts</a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="bi bi-chat-left-dots-fill"></i> Comments</a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="bi bi-coin"></i> Coins</a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="bi bi-gear-fill"></i> Settings</a>
+                  </li>
+               </ul>
+            </nav>
+         </aside>
+
+         <main class="admin-content">
+            <header class="admin-header">
+               <h3>Overview</h3>
+            </header>
+
+            <section class="metrics-grid">
+               <div class="metric-card"><span>Total Users</span><strong>12,345</strong></div>
+               <div class="metric-card"><span>Active Users</span><strong>8,765</strong></div>
+               <div class="metric-card"><span>Total Posts</span><strong>5,432</strong></div>
+               <div class="metric-card"><span>Total Comments</span><strong>9,876</strong></div>
+               <div class="metric-card"><span>Coin Supply</span><strong>1,000,000</strong></div>
+            </section>
+
+            <section class="charts-grid">
+               <div class="chart-card">
+                  <h4>User Growth</h4>
+                  <img src="assets/images/user-growth-chart.png" alt="User Growth Chart" />
+               </div>
+               <div class="chart-card">
+                  <h4>Post Engagement</h4>
+                  <img src="assets/images/post-engagement-chart.png" alt="Post Engagement Chart" />
+               </div>
+            </section>
+
+            <section class="tables-grid">
+               <div class="table-card">
+                  <h4>Recent Posts</h4>
+                  <table class="admin-table">
+                     <thead>
+                        <tr>
+                           <th>Title</th>
+                           <th>Author</th>
+                           <th>Date</th>
+                           <th>Views</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Market Analysis</td>
+                           <td>Alex Turner</td>
+                           <td>2024-07-26</td>
+                           <td>1,234</td>
+                        </tr>
+                        <tr>
+                           <td>Investment Strategies</td>
+                           <td>Chloe Bennett</td>
+                           <td>2024-07-25</td>
+                           <td>876</td>
+                        </tr>
+                        <tr>
+                           <td>Crypto News</td>
+                           <td>Owen Harris</td>
+                           <td>2024-07-24</td>
+                           <td>643</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <div class="table-card">
+                  <h4>Recent Comments</h4>
+                  <table class="admin-table">
+                     <thead>
+                        <tr>
+                           <th>User</th>
+                           <th>Comment</th>
+                           <th>Post</th>
+                           <th>Date</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Isabella Hayes</td>
+                           <td>"Great insights!"</td>
+                           <td>Market Analysis</td>
+                           <td>2024-07-27</td>
+                        </tr>
+                        <tr>
+                           <td>Lucas Reed</td>
+                           <td>"I agree with this."</td>
+                           <td>Investment Strategies</td>
+                           <td>2024-07-26</td>
+                        </tr>
+                        <tr>
+                           <td>Mia Foster</td>
+                           <td>"Interesting perspective."</td>
+                           <td>Crypto News</td>
+                           <td>2024-07-25</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </section>
+         </main>
+      </div>
+   </body>
+</html>

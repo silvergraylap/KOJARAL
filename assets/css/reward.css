@@ -1,0 +1,150 @@
+/* Rewards Page Specific Styles */
+body.rewards-page {
+   background-color: #1a1a2e; /* Dark blue background */
+   color: #e0e0e0;
+}
+
+.coinswap-header.dark-theme {
+   background-color: #162447;
+   border-bottom: 1px solid #2c3e50;
+}
+
+.coinswap-header.dark-theme .logo a,
+.coinswap-header.dark-theme .main-nav a {
+   color: #fff;
+}
+
+.rewards-container h1,
+.rewards-container p {
+   text-align: center;
+}
+
+.rewards-container h1 {
+   margin-bottom: 5px;
+}
+
+.rewards-header {
+   margin: 40px 0;
+}
+
+.card.dark-card {
+   background-color: #1f4068;
+   border: 1px solid #2c3e50;
+   margin-bottom: 30px;
+}
+
+.coin-balance-display {
+   text-align: center;
+   padding: 20px;
+}
+
+.coin-balance-display h4 {
+   margin: 0 0 10px 0;
+   color: #a0a0a0;
+}
+
+.coin-balance-display span {
+   font-size: 1.8rem;
+   font-weight: bold;
+   color: #f1c40f; /* Gold color for coins */
+}
+
+.coin-balance-display i {
+   margin-right: 10px;
+}
+
+.redeem-tabs {
+   margin-bottom: 20px;
+}
+
+.redeem-tabs button {
+   background: none;
+   border: 1px solid #2c3e50;
+   color: #e0e0e0;
+   padding: 10px 20px;
+   border-radius: 5px;
+   margin-right: 10px;
+   cursor: pointer;
+}
+
+.redeem-tabs button.active {
+   background-color: #e43f5a;
+   border-color: #e43f5a;
+}
+
+.rewards-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+   gap: 20px;
+}
+
+.reward-card {
+   background-color: #162447;
+   border-radius: 8px;
+   text-align: center;
+   padding: 15px;
+   cursor: pointer;
+   transition: transform 0.2s;
+}
+
+.reward-card:hover {
+   transform: translateY(-5px);
+}
+
+.reward-card img {
+   width: 100%;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 5px;
+   margin-bottom: 10px;
+}
+
+.reward-card p {
+   margin: 0;
+   font-weight: 500;
+}
+
+.reward-card span {
+   color: #f1c40f;
+   font-weight: bold;
+}
+
+.redeem-action {
+   text-align: center;
+   margin-top: 30px;
+   border-top: 1px solid #2c3e50;
+   padding-top: 20px;
+}
+
+.redeem-btn {
+   background-color: #e43f5a;
+   color: #fff;
+   border: none;
+   padding: 12px 40px;
+   font-size: 1rem;
+   font-weight: bold;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.redeem-note {
+   font-size: 0.8rem;
+   color: #a0a0a0;
+   margin-top: 15px;
+}
+
+.history-table-dark {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.history-table-dark th,
+.history-table-dark td {
+   padding: 12px;
+   text-align: left;
+   border-bottom: 1px solid #2c3e50;
+}
+
+.history-table-dark th {
+   color: #a0a0a0;
+}

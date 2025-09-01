@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>My Profile - Investr</title>
+      <link rel="stylesheet" href="./assets/css/profile.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+   </head>
+   <body class="investr-page">
+      <main class="profile-container">
+         <section class="profile-header">
+            <div class="profile-pic">
+               <img src="assets/images/plant-avatar.png" alt="Profile Picture" />
+            </div>
+            <div class="profile-info">
+               <h3>Sophia Carter</h3>
+               <p>@sophia.carter</p>
+               <div class="profile-stats">
+                  <span><strong>34</strong> Posts</span>
+                  <span><strong>56</strong> Likes</span>
+               </div>
+            </div>
+         </section>
+
+         <section class="profile-section">
+            <div class="card">
+               <h4>코인 잔액 (Coin Balance)</h4>
+               <div class="balance-details">
+                  <div>
+                     <span class="label">총 가치 (Total Value)</span>
+                     <span class="amount">$1,234.56</span>
+                     <span class="change positive">+2.34%</span>
+                  </div>
+                  <div>
+                     <span class="label">총 수익 (Total Return)</span>
+                     <span class="amount">$123.45</span>
+                     <span class="change positive">+1.23%</span>
+                  </div>
+               </div>
+            </div>
+            <div class="card">
+               <h4>코인 사용 내역 (Coin Usage History)</h4>
+               <table class="history-table">
+                  <tr>
+                     <th>날짜 (Date)</th>
+                     <th>내용 (Details)</th>
+                     <th>코인 수량 (Amount)</th>
+                  </tr>
+                  <tr>
+                     <td>2024-07-20</td>
+                     <td>출석 체크 (Attendance Check)</td>
+                     <td class="positive">+10</td>
+                  </tr>
+                  <tr>
+                     <td>2024-07-15</td>
+                     <td>이벤트 참여 (Event Participation)</td>
+                     <td class="positive">+50</td>
+                  </tr>
+                  <tr>
+                     <td>2024-07-10</td>
+                     <td>게시물 작성 (Post Creation)</td>
+                     <td class="positive">+20</td>
+                  </tr>
+               </table>
+            </div>
+         </section>
+
+         <section class="profile-section" style="display: none">
+            <div class="card">
+               <h4>회원 정보 수정 (Edit Profile)</h4>
+               <form class="edit-form">
+                  <label for="nickname">닉네임 (Nickname)</label>
+                  <input type="text" id="nickname" value="Emily Carter" />
+                  <label for="password">비밀번호 (Password)</label>
+                  <input type="password" id="password" placeholder="Enter new password" />
+                  <label>프로필 사진 (Profile Picture)</label>
+                  <button type="button" class="upload-btn">Upload Image</button>
+                  <button type="submit" class="save-btn">변경 사항 저장 (Save Changes)</button>
+               </form>
+            </div>
+         </section>
+
+         <section class="profile-section" style="display: none">
+            <div class="card">
+               <h4>알림 설정 (Notification Settings)</h4>
+               <div class="settings-item">
+                  <span>새로운 게시글 알림 (New Post)</span>
+                  <div class="toggle-switch"><input type="checkbox" checked /> <span class="slider"></span></div>
+               </div>
+               <div class="settings-item">
+                  <span>댓글 알림 (New Comment)</span>
+                  <div class="toggle-switch"><input type="checkbox" checked /> <span class="slider"></span></div>
+               </div>
+               <div class="settings-item">
+                  <span>코인 획득 알림 (Coin Acquired)</span>
+                  <div class="toggle-switch"><input type="checkbox" /> <span class="slider"></span></div>
+               </div>
+               <div class="settings-item">
+                  <span>중요 뉴스 알림 (Important News)</span>
+                  <div class="toggle-switch"><input type="checkbox" checked /> <span class="slider"></span></div>
+               </div>
+            </div>
+         </section>
+
+         <section class="profile-section">
+            <div class="activity-tabs">
+               <button class="active">게시물 (Posts)</button>
+               <button>댓글 (Comments)</button>
+               <button>좋아요 (Likes)</button>
+            </div>
+            <div class="activity-content">
+               <p><strong>게시물이 없습니다 (No Posts)</strong></p>
+               <span>아직 게시물이 없습니다. 첫 게시물을 작성해 보세요.</span>
+            </div>
+         </section>
+      </main>
+
+      <footer class="bottom-nav">
+         <a href="#"><i class="bi bi-house"></i><span>홈</span></a>
+         <a href="#"><i class="bi bi-search"></i><span>탐색</span></a>
+         <a href="#" class="nav-create-button"><i class="bi bi-plus-lg"></i></a>
+         <a href="#"><i class="bi bi-heart"></i><span>관심 목록</span></a>
+         <a href="#" class="active"><i class="bi bi-person-fill"></i><span>프로필</span></a>
+      </footer>
+   </body>
+</html>

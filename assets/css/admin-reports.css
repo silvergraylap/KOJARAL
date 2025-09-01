@@ -1,0 +1,94 @@
+/* Admin Reports Page (Light Theme) */
+body.admin-page-light {
+   background-color: #f4f7f6;
+}
+
+.admin-page-light .admin-content {
+   color: #333;
+}
+
+.admin-page-light .admin-header p {
+   color: #6c757d;
+}
+
+.table-card.light {
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filters-bar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   border-bottom: 1px solid #eee;
+}
+
+.filters-bar .tabs button {
+   background: none;
+   border: none;
+   font-size: 1rem;
+   padding: 10px;
+   margin-right: 10px;
+   cursor: pointer;
+   color: #6c757d;
+}
+
+.filters-bar .tabs button.active {
+   color: #007bff;
+   border-bottom: 2px solid #007bff;
+   font-weight: bold;
+}
+
+.filters-bar .search-bar input {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 8px 12px;
+}
+
+.reports-table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.reports-table th,
+.reports-table td {
+   padding: 15px 12px;
+   text-align: left;
+   border-bottom: 1px solid #eee;
+}
+
+.reports-table th {
+   font-size: 0.8rem;
+   color: #6c757d;
+   text-transform: uppercase;
+}
+
+.reports-table td {
+   font-size: 0.9rem;
+}
+
+.reports-table .status {
+   padding: 4px 10px;
+   border-radius: 12px;
+   font-size: 0.8rem;
+   font-weight: bold;
+   color: #fff;
+}
+
+.reports-table .status.pending {
+   background-color: #f0ad4e;
+} /* Orange */
+.reports-table .status.in-progress {
+   background-color: #0275d8;
+} /* Blue */
+.reports-table .status.resolved {
+   background-color: #5cb85c;
+} /* Green */
+
+.reports-table .action-btn {
+   color: #007bff;
+   font-weight: bold;
+   text-decoration: none;
+}

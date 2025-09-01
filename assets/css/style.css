@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+   font-family: sans-serif;
+   margin: 0;
+   background-color: #f5f5f5;
+}
+
+a {
+   text-decoration: none;
+   color: #333;
+}
+
+/* Header */
+header {
+   background-color: #fff;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid #ddd;
+}
+
+.logo a {
+   font-weight: bold;
+   font-size: 24px;
+}
+
+nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+nav li {
+   margin-right: 20px;
+}
+
+.user-actions a {
+   margin-left: 20px;
+}
+
+.user-actions .signup {
+   background-color: #007bff;
+   color: #fff;
+   padding: 10px 15px;
+   border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+   background-image: url('../images/hero-background.jpg');
+   background-size: cover;
+   color: #fff;
+   text-align: center;
+   padding: 100px 0;
+}
+
+.hero h1 {
+   font-size: 48px;
+   margin-bottom: 20px;
+}
+
+.hero p {
+   font-size: 24px;
+   margin-bottom: 40px;
+}
+
+.btn-primary {
+   background-color: #007bff;
+   color: #fff;
+   padding: 15px 30px;
+   border-radius: 5px;
+   margin-right: 20px;
+}
+
+.btn-secondary {
+   background-color: transparent;
+   border: 1px solid #fff;
+   color: #fff;
+   padding: 15px 30px;
+   border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+   display: flex;
+   justify-content: space-around;
+   padding: 80px 0;
+}
+
+.feature {
+   text-align: center;
+   max-width: 250px;
+}
+
+.feature h3 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+/* Mobile App Section */
+.mobile-app {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 80px 0;
+   background-color: #fff;
+}
+
+.mobile-app-image {
+   margin-right: 80px;
+}
+
+.mobile-app-content h2 {
+   font-size: 36px;
+   margin-bottom: 20px;
+}
+
+.btn-download {
+   background-color: #007bff;
+   color: #fff;
+   padding: 15px 30px;
+   border-radius: 5px;
+}
+
+/* Footer */
+footer {
+   background-color: #333;
+   color: #fff;
+   padding: 40px;
+   text-align: center;
+}
+
+.footer-links {
+   margin-bottom: 20px;
+}
+
+.footer-links a {
+   color: #fff;
+   margin: 0 15px;
+}
